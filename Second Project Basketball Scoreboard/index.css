@@ -1,0 +1,100 @@
+body {
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    position: relative;
+    left: 82px;
+}
+.container h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+}
+/* Score Table start */
+.score-table{
+    display: flex;
+    justify-content: space-between;    
+    width: 480px;
+    height: 120px;
+    position: relative;
+    left: 82px;
+}
+.score-left {
+    width: 155px;
+    background: black;
+    text-align: center;
+    color: #F94F6D;
+}
+.score-value {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    margin-left: 9px;
+}
+
+.score-right {
+    width: 155px;
+    background: black;
+    text-align: center;
+    color: #F94F6D;
+}
+
+/* Score Table end */
+
+
+/* Buttons start */
+
+#points {  
+    
+    border: 2px solid #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #1B244A;
+}
+#points:hover {
+    background-color: #EEEEEE;
+    transition: 0.3s;
+}
+.buttons {    
+    display: flex;
+    width: 480px;
+    position: relative;
+    left: 82px;
+    margin-top: 26px;
+}
+
+/* Home buttons */
+.home-btn {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Guest buttons */
+.guest-btn {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+/* Buttons end */

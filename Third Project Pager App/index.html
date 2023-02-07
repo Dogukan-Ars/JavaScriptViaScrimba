@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Pager App</title>
+</head>
+<body>
+    <header>        
+        <div class="pager">
+            <span>Pager</span>
+        </div>
+        <div class="pager-screen">
+            <span id="pager-screen"></span>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="phone">
+                <div class="phone-name">
+                    <span>Phone</span>
+                </div>
+                <div class="phone-view">
+                    <span id="phone-screen" style="color: white;"></span>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="f-line">
+                    <button id="btn1" onclick="no1()">1</button>
+                    <button id="btn2" onclick="no2()">2</button>
+                    <button id="btn3" onclick="no3()">3</button>
+                </div>
+                <div class="s-line">
+                    <button id="btn4" onclick="no4()">4</button>
+                    <button id="btn5" onclick="no5()">5</button>
+                    <button id="btn6" onclick="no6()">6</button>
+                </div>
+                <div class="t-line">
+                    <button id="btn7" onclick="no7()">7</button>
+                    <button id="btn8" onclick="no8()">8</button>
+                    <button id="btn9" onclick="no9()">9</button>
+                </div>
+                <div class="l-line">
+                    <button id="btnStar" onclick="noStar()">*</button>
+                    <button id="btn0" onclick="no0()">0</button>                    
+                    <button id="btnSquare" onclick="noSquare()">#</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <button id="reset" onclick="reset()">RESET</button>
+        <button id="send" onclick="send()">SEND</button>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
